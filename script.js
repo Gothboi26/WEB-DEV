@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-<script>
-function openWin() {
-  window.open("https://www.w3schools.com");
+function toggleMenu() {
+  const menu = document.querySelector(".menu-links");
+  const icon = document.querySelector(".hamburger-icon");
+  menu.classList.toggle("open");
+  icon.classList.toggle("open");
 }
-</script>
-</head>
-<body>
-
-<form>
-  <input type="button" value="Open Window" onclick="openWin()">
-</form>
-
-</body>
-</html>
