@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: #9f8469;
 }
 
 body {
@@ -34,9 +35,13 @@ nav,
 }
 
 nav {
-  justify-content: space-around;
+  position: relative;
+  width: 100%;
+
+  justify-content: space-between;
   align-items: center;
   height: 17vh;
+  background: #cab69d;
 }
 
 .nav-links {
@@ -97,7 +102,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: #9f8469;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
