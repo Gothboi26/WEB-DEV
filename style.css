@@ -315,11 +315,6 @@ section {
   text-align: center;
 }
 
-.section-container {
-  gap: 4rem;
-  height: 80%;
-}
-
 .section__pic-container {
   height: 400px;
   width: 400px;
@@ -334,6 +329,10 @@ section {
 
 #experience {
   position: relative;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+  background: #9f8469;
 }
 
 .experience-sub-title {
