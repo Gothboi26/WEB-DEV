@@ -352,6 +352,14 @@ article .icon {
 #project {
   position: relative;
 }
+.article-container {
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+.article-container:hover {
+  background: #9f8469;
+}
 
 .color-container {
   border-color: rgb(163, 163, 163);
