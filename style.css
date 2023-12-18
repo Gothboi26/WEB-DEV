@@ -196,26 +196,7 @@ section {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
-.section__text__p3:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  color: black;
-  border-left: 2px solid white;
-  animation: animate 4s steps(12) infinite;
-}
-@keyframes animate {
-  40%,
-  60% {
-    left: 100%;
-  }
-  100% {
-    left: 0%;
-  }
-}
+
 .title {
   font-size: 3rem;
   text-align: center;
